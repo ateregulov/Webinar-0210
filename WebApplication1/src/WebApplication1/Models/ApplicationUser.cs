@@ -10,5 +10,6 @@ namespace WebApplication1.Models
     public class ApplicationUser : IdentityUser
     {
         public string HairColor { get; set; }
+        public int BirthYear { get; set; }
     }
 }
